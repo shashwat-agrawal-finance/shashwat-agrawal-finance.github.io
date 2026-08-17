@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     SEO / SOCIAL  —  EDIT the canonical + og:url once you pick a domain
+     ============================================================ -->
+<title>Shashwat Agrawal | PhD Candidate in Finance, Boston College</title>
+<meta name="description" content="Shashwat Agrawal is a PhD candidate in Finance at Boston College on the 2026–2027 academic job market. Research on financial intermediation, banking, corporate finance, political economy, and entrepreneurial finance.">
+<link rel="canonical" href="https://shashwatagrawal.com/">
+<meta name="author" content="Shashwat Agrawal">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Shashwat Agrawal | PhD Candidate in Finance, Boston College">
+<meta property="og:description" content="PhD candidate in Finance at Boston College. Job market 2026–2027. Financial intermediation, banking, corporate finance, political economy.">
+<meta property="og:url" content="https://shashwatagrawal.com/">
+<meta property="og:image" content="https://shashwatagrawal.com/headshot.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ShashwatFinance">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%238C2232'/><text x='50' y='69' font-size='58' font-family='Georgia,serif' fill='%23fff' text-anchor='middle'>SA</text></svg>">
+
+<!-- Structured data: helps Google show your name, role, and affiliation correctly -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shashwat Agrawal",
+  "jobTitle": "PhD Candidate in Finance",
+  "email": "mailto:agrawasb@bc.edu",
+  "url": "https://shashwatagrawal.com/",
+  "image": "https://shashwatagrawal.com/headshot.jpg",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Boston College, Carroll School of Management"
+  },
+  "alumniOf": "Indian Institute of Technology",
+  "knowsAbout": ["Financial Intermediation","Banking","Corporate Finance","Political Economy","Entrepreneurial Finance"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=qgvJARQAAAAJ&hl=en",
+    "https://www.linkedin.com/in/shashwat-a-b5088357/",
+    "https://x.com/ShashwatFinance"
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --maroon:#8C2232;
+  --maroon-soft:#f6ecee;
+  --gold:#9a834f;
+  --ink:#16181d;
+  --body:#33373f;
+  --muted:#6b7280;
+  --rule:#e3e5ea;
+  --bg:#ffffff;
+  --surface:#fafafb;
+  --max:1080px;
+  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,ui-serif,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --maroon:#e08494;
+    --maroon-soft:#2a1a1e;
+    --gold:#c7ab73;
+    --ink:#f2f3f5;
+    --body:#c7cad1;
+    --muted:#8f959f;
+    --rule:#2a2d34;
+    --bg:#111318;
+    --surface:#171a20;
+  }
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--body);
+  font-family:var(--sans);font-size:17px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+a{color:var(--maroon);text-decoration:none;text-underline-offset:3px;
+  border-bottom:1px solid color-mix(in srgb, var(--maroon) 32%, transparent);
+  transition:border-color .15s ease,color .15s ease}
+a:hover{border-bottom-color:var(--maroon)}
+a:focus-visible{outline:2px solid var(--maroon);outline-offset:3px;border-radius:2px}
+
+.skip{position:absolute;left:-9999px;top:0;background:var(--maroon);color:#fff;
+  padding:10px 16px;z-index:100;border:0}
+.skip:focus{left:12px;top:12px}
+
+/* ============================================================
+   NAV
+   ============================================================ */
+.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--rule)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:60px}
+.nav-name{font-family:var(--serif);font-size:16px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink);border:0;font-weight:600;white-space:nowrap}
+.nav-links{display:flex;gap:22px;flex-wrap:wrap;justify-content:flex-end}
+.nav-links a{color:var(--muted);border:0;font-size:14.5px;letter-spacing:.01em;
+  padding-bottom:3px;border-bottom:2px solid transparent;transition:color .15s ease,border-color .15s ease}
+.nav-links a:hover{color:var(--maroon)}
+/* current section indicator */
+.nav-links a.is-active{color:var(--ink);border-bottom-color:var(--maroon)}
+/* external-link arrow */
+.nav-links a .ext{font-size:11px;vertical-align:1px;opacity:.65;margin-left:1px}
+
+/* email + copy control */
+.mailrow{display:inline-flex;align-items:stretch;border:1px solid var(--rule);
+  border-radius:7px;overflow:hidden;background:var(--surface);vertical-align:top}
+.mailrow a.mailaddr{display:inline-flex;align-items:center;padding:10px 16px;font-size:15px;
+  font-weight:600;color:var(--ink);border:0;background:var(--bg)}
+.mailrow a.mailaddr:hover{color:var(--maroon)}
+.copybtn{appearance:none;cursor:pointer;border:0;border-left:1px solid var(--rule);
+  background:var(--surface);color:var(--muted);font:inherit;font-size:12px;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;padding:0 16px;transition:.15s ease}
+.copybtn:hover{color:var(--maroon);background:var(--maroon-soft)}
+.copybtn:focus-visible{outline:2px solid var(--maroon);outline-offset:-2px}
+.copybtn.done{color:var(--maroon)}
+@media print{.copybtn{display:none}}
+@media(max-width:640px){
+  .nav .wrap{height:auto;padding-top:10px;padding-bottom:10px;flex-direction:column;align-items:flex-start;gap:8px}
+  .nav-links{justify-content:flex-start;gap:16px}
+  html{scroll-padding-top:110px}
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{padding:64px 0 52px;border-bottom:1px solid var(--rule)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:52px;align-items:start}
+h1{font-family:var(--serif);font-size:clamp(34px,5vw,46px);line-height:1.1;margin:0 0 10px;
+  color:var(--ink);letter-spacing:-.015em;font-weight:600}
+.role{font-size:18px;color:var(--ink);margin:0 0 18px;font-weight:500}
+.role span{color:var(--muted);font-weight:400}
+
+.jm-flag{display:inline-flex;align-items:center;gap:9px;background:var(--maroon-soft);
+  color:var(--maroon);border:1px solid color-mix(in srgb,var(--maroon) 25%,transparent);
+  padding:7px 14px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:22px;
+  letter-spacing:.01em}
+.jm-flag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--maroon);flex:none}
+
+.hero p{margin:0 0 16px;max-width:60ch}
+.hero p:last-of-type{margin-bottom:0}
+
+.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:7px;
+  font-size:15px;font-weight:600;border:1px solid var(--rule);color:var(--ink);
+  background:var(--surface);transition:.15s ease}
+.btn:hover{border-color:var(--maroon);color:var(--maroon)}
+.btn-primary{background:var(--maroon);border-color:var(--maroon);color:#fff}
+.btn-primary:hover{background:color-mix(in srgb,var(--maroon) 85%,#000);color:#fff;border-color:transparent}
+@media (prefers-color-scheme: dark){.btn-primary{color:#1a0d10}.btn-primary:hover{color:#1a0d10}}
+
+.photo{width:100%;aspect-ratio:1/1.18;object-fit:cover;object-position:center 22%;
+  border-radius:10px;background:var(--surface);border:1px solid var(--rule);display:block}
+.photo-fallback{width:100%;aspect-ratio:1/1.18;border-radius:10px;background:var(--surface);
+  border:1px dashed var(--rule);display:none;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:15px;color:var(--muted);text-align:center;padding:20px;line-height:1.5}
+
+@media(max-width:820px){
+  .hero{padding:40px 0 36px}
+  .hero-grid{grid-template-columns:1fr;gap:30px}
+  .photo,.photo-fallback{max-width:210px;aspect-ratio:1/1.15}
+}
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+section{padding:52px 0;border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+h2{font-family:var(--serif);font-size:14px;text-transform:uppercase;letter-spacing:.14em;
+  color:var(--muted);margin:0 0 30px;font-weight:600;display:flex;align-items:center;gap:14px}
+h2::after{content:"";flex:1;height:1px;background:var(--rule)}
+
+/* ============================================================
+   PAPERS
+   ============================================================ */
+.paper{padding:24px 0;border-top:1px solid var(--rule)}
+.paper:first-of-type{border-top:0;padding-top:0}
+.paper h3{font-family:var(--serif);font-size:21px;line-height:1.32;margin:0 0 8px;
+  color:var(--ink);font-weight:600;letter-spacing:-.005em}
+.paper h3 a{color:inherit;
+  border-bottom:1px solid color-mix(in srgb, var(--maroon) 32%, transparent)}
+.paper h3 a:hover{color:var(--maroon);border-bottom-color:var(--maroon)}
+.byline{font-size:15.5px;color:var(--muted);margin:0 0 12px}
+.byline a{color:var(--body);border-bottom-color:var(--rule)}
+.byline a:hover{color:var(--maroon)}
+
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 13px}
+.tag{font-size:12.5px;font-weight:600;letter-spacing:.045em;text-transform:uppercase;
+  padding:4px 10px;border-radius:5px;background:var(--surface);color:var(--muted);
+  border:1px solid var(--rule)}
+.tag-jmp{background:var(--maroon);color:#fff;border-color:transparent}
+@media (prefers-color-scheme: dark){.tag-jmp{color:#1a0d10}}
+.tag-pub{background:color-mix(in srgb,var(--gold) 16%,transparent);color:var(--gold);
+  border-color:color-mix(in srgb,var(--gold) 38%,transparent)}
+
+.links{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 0}
+.links a{font-size:14px;font-weight:600;padding:5px 12px;border-radius:5px;
+  border:1px solid var(--rule);color:var(--body);background:var(--bg)}
+.links a:hover{border-color:var(--maroon);color:var(--maroon)}
+
+details{margin-top:14px}
+details summary{cursor:pointer;font-size:14.5px;font-weight:600;color:var(--maroon);
+  list-style:none;display:inline-flex;align-items:center;gap:7px;user-select:none}
+details summary::-webkit-details-marker{display:none}
+details summary::before{content:"▸";font-size:12px;transition:transform .18s ease;display:inline-block}
+details[open] summary::before{transform:rotate(90deg)}
+details summary:focus-visible{outline:2px solid var(--maroon);outline-offset:3px;border-radius:3px}
+.abstract{margin:12px 0 0;padding:16px 20px;background:var(--surface);border-radius:8px;
+  border-left:3px solid color-mix(in srgb,var(--maroon) 45%,transparent);
+  font-size:16px;line-height:1.65;max-width:74ch}
+.abstract p{margin:0}
+
+.presented{font-size:14px;color:var(--muted);margin:13px 0 0;max-width:78ch}
+.presented b{color:var(--body);font-weight:600}
+
+/* JMP feature block */
+.jmp{background:var(--surface);border:1px solid var(--rule);
+  border-left:4px solid var(--maroon);border-radius:10px;padding:28px 30px}
+.jmp .paper{padding:0;border:0}
+@media(max-width:560px){.jmp{padding:22px 20px}}
+
+/* ============================================================
+   LISTS (work in progress, teaching, references)
+   ============================================================ */
+.plain{list-style:none;padding:0;margin:0}
+.plain li{padding:15px 0;border-top:1px solid var(--rule)}
+.plain li:first-child{border-top:0;padding-top:0}
+.plain .t{font-family:var(--serif);font-size:18.5px;color:var(--ink);font-weight:600;
+  display:block;margin-bottom:4px;line-height:1.35}
+
+.refs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.ref{padding:18px 20px;background:var(--surface);border:1px solid var(--rule);border-radius:8px}
+.ref .n{font-family:var(--serif);font-size:17.5px;color:var(--ink);font-weight:600;display:block}
+.ref .d{font-size:14.5px;color:var(--muted);margin-top:5px;display:block;line-height:1.5}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{padding:38px 0 56px;font-size:14.5px;color:var(--muted)}
+.foot-row{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap}
+footer a{color:var(--muted);border-bottom-color:var(--rule)}
+footer a:hover{color:var(--maroon)}
+
+/* ============================================================
+   PRINT
+   ============================================================ */
+@media print{
+  .nav,.actions,.photo,.photo-fallback,.skip{display:none}
+  body{font-size:11pt;color:#000;background:#fff}
+  details{display:block}
+  details[open] summary,details summary{display:none}
+  .abstract{display:block!important;background:none;border-left:2px solid #999;padding:0 0 0 12px}
+  details:not([open]) .abstract{display:block!important}
+  a{color:#000;border:0}
+  section{padding:16pt 0;break-inside:avoid}
+  .paper{break-inside:avoid}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav" aria-label="Primary">
+  <div class="wrap">
+    <a class="nav-name" href="#top">Shashwat Agrawal</a>
+    <div class="nav-links">
+      <a href="#jmp">Job Market Paper</a>
+      <a href="#publications">Accepted Paper</a>
+      <a href="#working">Working Papers</a>
+      <a href="https://drive.google.com/file/d/1nM-7UuJISAxLh6f-4QiNbGCaYgRB2-qq/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV <span class="ext">↗</span></a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Shashwat Agrawal</h1>
+      <p class="role">PhD Candidate in Finance <span>· Carroll School of Management, Boston College</span></p>
+
+      <!-- EDIT: remove this flag after you accept a position -->
+      <p class="jm-flag">On the 2026–2027 academic job market</p>
+
+      <!-- EDIT: this two-sentence pitch is the most valuable real estate on the site.
+           Make sure it reads the way you'd say it in a hallway at the AFA. -->
+      <p>My research interests include financial intermediation, corporate finance, political economy, and entrepreneurial finance. I study how government actions and regulations shape bank lending, risk-taking, and credit markets.
+	  </p>
+
+      <div class="actions">
+        <!-- EDIT: replace with a PDF hosted on your own site, e.g. href="Shashwat_Agrawal_CV.pdf" -->
+        <a class="btn btn-primary" href="https://drive.google.com/file/d/1nM-7UuJISAxLh6f-4QiNbGCaYgRB2-qq/view?usp=sharing" target="_blank" rel="noopener noreferrer">Curriculum Vitae (PDF)</a>
+        <!-- EDIT: point at your JMP PDF -->
+        <a class="btn" href="mailto:agrawasb@bc.edu">agrawasb@bc.edu</a>
+      </div>
+    </div>
+
+    <div>
+      <!-- EDIT: save your headshot next to this file as headshot.jpg (square-ish, ~800px wide) -->
+      <img class="photo" src="headshot.jpg" alt="Shashwat Agrawal"
+           onerror="this.style.display='none';document.getElementById('ph').style.display='flex'">
+      <div class="photo-fallback" id="ph"><span>Save your headshot as<br><b>headshot.jpg</b><br>next to index.html</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     JOB MARKET PAPER
+     ============================================================ -->
+<section id="jmp">
+  <div class="wrap">
+    <h2>Job Market Paper</h2>
+    <div class="jmp">
+      <article class="paper">
+        <!-- EDIT: once the JMP has a PDF or SSRN page, wrap the title:
+           <h3><a href="URL">Government Intervention...</a></h3> -->
+        <h3>Government Intervention in Governance: Private Banks, Political Lending</h3>
+        <!-- EDIT: add coauthors here, or delete the byline if solo-authored -->
+        <p class="byline">Solo-authored</p>
+        <div class="tags"><span class="tag tag-jmp">Job Market Paper</span></div>
+		
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PUBLICATIONS
+     ============================================================ -->
+<section id="publications">
+  <div class="wrap">
+    <h2>Accepted Paper</h2>
+
+    <article class="paper">
+      <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4804387" target="_blank" rel="noopener noreferrer">Systemically Important Banks and Loan Performance: Evidence from India</a></h3>
+      <p class="byline">with <a href="https://sites.google.com/view/nishantkashyap/" target="_blank" rel="noopener noreferrer">Nishant Kashyap</a>,
+      <a href="https://www.rit.edu/directory/srmbbu-sriniwas-mahapatro" target="_blank" rel="noopener noreferrer">Sriniwas Mahapatro, and
+      <a href="https://sites.google.com/view/prasanna-tantri/home" target="_blank" rel="noopener noreferrer">Prasanna Tantri</a></p>
+      <div class="tags"><span class="tag tag-pub">Accepted · Management Science</span></div>
+
+      <!-- ⚠️ EDIT: this is a paraphrase, not your published abstract. Replace it verbatim. -->
+      <details>
+        <summary>Abstract</summary>
+        <div class="abstract">
+          <p>We examine whether the policy of designating banks as systemically important affects loan performance in an emerging-market setting where systemically important banks are large domestic institutions and market imperfections make monitoring crucial for loan performance. Using loan-level data and the staggered designation of banks as Domestic Systemically Important Banks (DSIBs) in India, we find that loan performance deteriorates following DSIB designation. The evidence points to bank-level moral hazard as the underlying mechanism. DSIBs reduce post-origination monitoring and weaken loan recovery efforts. Borrowers respond to these changes, leading to poorer financial health and loan repayment, particularly on loans extended by DSIBs.</p>
+        </div>
+      </details>
+
+    </article>
+  </div>
+</section>
+
+<!-- ============================================================
+     WORKING PAPERS
+     ============================================================ -->
+<section id="working">
+  <div class="wrap">
+    <h2>Working Papers</h2>
+
+    <article class="paper">
+      <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7243160" target="_blank" rel="noopener noreferrer">Credit Risk and Systemic Spillovers from an Unexpected Bank Rescue</a></h3>
+      <p class="byline">Solo-authored</p>
+      <!-- EDIT: add a status tag if applicable, e.g. <span class="tag">Under Review</span> -->
+	  
+      <p class="presented"><b>Presentations:</b> American Economic Association (AEA) annual meeting poster 2026 ·
+      Federal Reserve Bank of Philadelphia and University of Delaware Fintech and Financial Institutions Research Conference 2026 ·
+      Financial Management Association (FMA) annual meeting 2025 · Global Finance Conference 2025 ·
+      Boston College</p>
+	  
+      <!-- ⚠️ EDIT: paraphrase — replace with your exact abstract. -->
+      <details>
+        <summary>Abstract</summary>
+        <div class="abstract">
+          <p>I exploit an unexpected rescue of a private sector bank to examine spillover effects on other banks. The unprecedented protection of shareholder claims in the failed bank increases bailout expectations among other private sector banks, triggering two opposing channels of systemic risk. Affected banks engage in individual risk-shifting by lending more to risky borrowers, increasing credit risk, and expanding overall lending. Yet, they also increase loan specialization due to weaker incentives to correlate assets with peers. On net, their contribution to systemic risk rises by about 23%, highlighting how bailouts can reshape risk-taking and amplify fragility across the banking system.</p>
+        </div>
+      </details>
+
+    </article>
+
+    <article class="paper">
+      <!-- EDIT: replace href="#" with the SSRN or PDF URL for this paper -->
+      <h3><a href="#">How Does the Innovation Scope of Private Firms Affect the Success of Their Initial Public Offerings?</a></h3>
+      <p class="byline">with <a href="https://sites.google.com/bc.edu/thomas-chemmanur/home" target="_blank" rel="noopener noreferrer">Thomas J. Chemmanur</a>
+      and <a href="https://www.jingxuanzhang.com/" target="_blank" rel="noopener noreferrer">Jingxuan Zhang</a></p>
+	  
+      <p class="presented"><b>Presentations:</b> Southern Finance Association 2026 (scheduled) ·
+      Australasian Finance and Banking Conference 2025 · Financial Management Association (FMA) annual meeting 2025 ·
+      Telfer Conference 2025</p>
+
+      <details>
+        <summary>Abstract</summary>
+        <div class="abstract">
+          <p>We analyze how private firms' patent scope affects IPO success. Patent scope may affect IPO variables through a ``performance channel'' (greater patent scope enabling better post-IPO performance), and an ``information channel'' (greater patent scope conveying insider private information to outsiders). Controlling for patent quantity and quality, firms with greater patent scope have larger IPO amounts, younger IPO age, greater IPO initial returns, more high-reputation underwriters, and more institutional investors. They develop more new products, conduct more exploratory innovation, but suffer greater litigation hazard. Overall, firms with greater patent scope obtain greater equity valuations post-IPO. We establish causality through IV analyses.</p>
+        </div>
+      </details>
+
+    </article>
+  </div>
+</section>
+
+<!-- ============================================================
+     WORK IN PROGRESS
+     ============================================================ -->
+<section id="wip">
+  <div class="wrap">
+    <h2>Work in Progress</h2>
+    <ul class="plain">
+      <li>
+        <span class="t">Boardroom Religion and Firm Outcomes</span>
+        <span class="byline">with <a href="https://sites.google.com/bc.edu/philip-strahan/home" target="_blank" rel="noopener noreferrer">Philip E. Strahan</a></span>
+      </li>
+      <li>
+        <span class="t">Angels and Venture Capital: Dynamics of Startup Financing</span>
+        <span class="byline">with <a href="https://ahduni.edu.in/faculty/poonam-dugar/" target="_blank" rel="noopener noreferrer">Poonam Dugar</a>
+        and <a href="https://www.amalenko.com/" target="_blank" rel="noopener noreferrer">Andrey Malenko</a></span>
+      </li>
+      <li>
+        <span class="t">Borrower–Lender Game, Firm Outcomes and Systemic Risk</span>
+        <span class="byline">with <a href="https://gioch.me/" target="_blank" rel="noopener noreferrer">Giorgi Chavchanidze</a></span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT / CONTACT
+     ============================================================ -->
+<section id="contact">
+  <div class="wrap">
+    <h2>Background &amp; Contact</h2>
+    <p style="max-width:66ch;margin-top:0">Before graduate school I spent over three years at
+    American Express, plus a further year consulting for the firm. I am a certified Financial Risk
+    Manager (FRM) and have passed all three levels of the CFA program. I hold a Master's and a
+    Bachelor's degree from
+    <!-- EDIT: name the IIT and both fields, e.g. "IIT Kanpur (M.Sc. Statistics, B.Tech. Civil Engineering)" -->
+    IIT.</p>
+
+    <div class="actions">
+      <span class="mailrow">
+        <a class="mailaddr" href="mailto:agrawasb@bc.edu">agrawasb@bc.edu</a>
+        <button type="button" class="copybtn" data-copy="agrawasb@bc.edu"
+                aria-label="Copy email address to clipboard">Copy</button>
+      </span>
+      <a class="btn" href="https://www.linkedin.com/in/shashwat-a-b5088357/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+
+    <p class="presented" style="margin-top:26px">Carroll School of Management, Boston College ·
+    140 Commonwealth Avenue, Chestnut Hill, MA 02467</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <!-- EDIT: bump this date whenever you update the page -->
+    <span>Last updated: August 2026</span>
+    <div class="foot-links">
+      <a href="#top">Back to top</a>
+      <a href="mailto:agrawasb@bc.edu">Email</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+/* ---- underline the nav item for the section you're reading ---- */
+(function () {
+  var links = Array.prototype.slice.call(
+        document.querySelectorAll('.nav-links a[href^="#"]'));
+  if (!links.length) return;
+  var targets = links.map(function (a) {
+    return { link: a, el: document.getElementById(a.getAttribute('href').slice(1)) };
+  }).filter(function (t) { return t.el; });
+  if (!targets.length) return;
+
+  var current = null, ticking = false;
+  function update() {
+    ticking = false;
+    var nav = document.querySelector('.nav');
+    var offset = (nav ? nav.offsetHeight : 60) + 30;
+    var y = window.pageYOffset || document.documentElement.scrollTop;
+    var found = null;
+    // bottom of page: always the last section
+    if (y + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+      found = targets[targets.length - 1];
+    } else {
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].el.getBoundingClientRect().top <= offset) found = targets[i];
+      }
+    }
+    if (found === current) return;
+    current = found;
+    targets.forEach(function (t) {
+      var on = (t === found);
+      t.link.classList.toggle('is-active', on);
+      if (on) { t.link.setAttribute('aria-current', 'true'); }
+      else    { t.link.removeAttribute('aria-current'); }
+    });
+  }
+  function onScroll() {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('hashchange', onScroll);
+  update();
+})();
+
+/* ---- copy-to-clipboard buttons ---- */
+(function () {
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:absolute;left:-9999px;top:0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.copybtn') : null;
+    if (!btn) return;
+    var text = btn.getAttribute('data-copy') || '';
+    var label = btn.getAttribute('data-label') || btn.textContent;
+    function done(ok) {
+      btn.textContent = ok ? 'Copied' : 'Press \u2318C';
+      btn.classList.add('done');
+      clearTimeout(btn._t);
+      btn._t = setTimeout(function () {
+        btn.textContent = 'Copy';
+        btn.classList.remove('done');
+      }, 1600);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function () { done(true); },
+                                              function () { done(fallbackCopy(text)); });
+    } else {
+      done(fallbackCopy(text));
+    }
+  });
+})();
+</script>
+</body>
+</html>
